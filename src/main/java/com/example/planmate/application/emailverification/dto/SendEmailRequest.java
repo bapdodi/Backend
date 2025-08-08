@@ -1,6 +1,6 @@
-package com.example.planmate.dto;
+package com.example.planmate.application.emailverification.dto;
 
-import com.example.planmate.gita.EmailVerificationPurpose;
+import com.example.planmate.domain.emailverification.EmailVerificationPurpose;
 import lombok.Getter;
 import lombok.Setter;
 
