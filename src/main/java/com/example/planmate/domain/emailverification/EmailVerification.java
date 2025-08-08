@@ -1,4 +1,4 @@
-package com.example.planmate.gita;
+package com.example.planmate.domain.emailverification;
 
 import lombok.Getter;
 import lombok.Setter;

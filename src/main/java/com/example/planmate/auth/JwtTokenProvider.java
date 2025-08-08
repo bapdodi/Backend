@@ -1,6 +1,6 @@
 package com.example.planmate.auth;
 
-import com.example.planmate.gita.EmailVerificationPurpose;
+import com.example.planmate.domain.emailverification.EmailVerificationPurpose;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

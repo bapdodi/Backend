@@ -1,8 +1,11 @@
-package com.example.planmate.controller;
+package com.example.planmate.presentation.emailverification;
 
-import com.example.planmate.dto.*;
-import com.example.planmate.service.EmailVerificationService;
+import com.example.planmate.application.emailverification.EmailVerificationService;
 import lombok.RequiredArgsConstructor;
+import com.example.planmate.application.emailverification.dto.SendEmailRequest;
+import com.example.planmate.application.emailverification.dto.SendEmailResponse;
+import com.example.planmate.application.emailverification.dto.EmailVerificationRequest;
+import com.example.planmate.application.emailverification.dto.EmailVerificationResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

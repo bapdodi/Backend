@@ -1,10 +1,10 @@
-package com.example.planmate.service;
+package com.example.planmate.application.emailverification;
 
 import com.example.planmate.auth.JwtTokenProvider;
-import com.example.planmate.dto.SendEmailResponse;
-import com.example.planmate.dto.EmailVerificationResponse;
-import com.example.planmate.gita.EmailVerification;
-import com.example.planmate.gita.EmailVerificationPurpose;
+import com.example.planmate.application.emailverification.dto.SendEmailResponse;
+import com.example.planmate.application.emailverification.dto.EmailVerificationResponse;
+import com.example.planmate.domain.emailverification.EmailVerification;
+import com.example.planmate.domain.emailverification.EmailVerificationPurpose;
 import com.example.planmate.repository.UserRepository;
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;

@@ -1,4 +1,4 @@
-package com.example.planmate.gita;
+package com.example.planmate.domain.emailverification;
 
 public enum EmailVerificationPurpose {
     SIGN_UP,
